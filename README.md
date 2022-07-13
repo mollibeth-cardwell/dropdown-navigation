@@ -43,14 +43,13 @@ Users should be able to:
 
 - HTML5 markup
 - CSS custom properties
-- Bootstrap Navigation, Grid, Offcanvas, and Flexbox
+- [Bootstrap](https://getbootstrap.com/) Navigation, Grid, Offcanvas, and Flexbox
 - Javascript
-- [Bootstrap](https://getbootstrap.com/)
 
 
 ### What I learned
 
-I used this challenge to practice implementing Bootstrap navigation and the offcanvas component to create a sidebar navigation in mobile view. When Bootstrap's offcanvas component did not work as expected in my project, I found a helpful article and implementation with some custom JS and CSS along with the Bootstrap framework that helped me through this stage. Ultimately, I realized that whether using only Bootstrap or with the custom JS, I had to move the toggle button (hamburger icon) outside of the navigation menu in order for offcanvas to work. If I had realized that sooner, I believe I could have completed the sidebar menu without using the additional JS.
+I used this challenge to practice implementing Bootstrap navigation and the offcanvas component to create a sidebar navigation in mobile view. Bootstrap's offcanvas component did not work as expected in my project. Implementing the offcanvas side menu only on smaller viewport sizes and a navbar on desktop did not work as suggested in the Bootstrap docs. However, I found a helpful article and implementation with some custom JS and CSS along with the Bootstrap framework that helped me through this stage (see resources below). I learned that I had to move the toggle button (hamburger icon) outside of the navigation menu in order for offcanvas to work correctly. 
 
 
 ### Continued development
